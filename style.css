@@ -105,3 +105,41 @@ button {
   flex-direction: column;
   gap: 30px;
 }
+
+.telephone {
+  width: 300px;
+  height: 500px;
+  margin-left: 300px;
+}
+
+.presentation {
+  display: flex;
+  position: relative;
+  z-index: 1;
+  background-color: white;
+  gap: 100px;
+}
+.parent {
+  margin-right: 200px;
+}
+
+.paragraphe {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.adjust-article {
+  display: flex;
+  margin-top: 50px;
+  gap: 100px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.parent h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
