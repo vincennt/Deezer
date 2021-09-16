@@ -146,3 +146,33 @@ button {
   font-size: 32px;
   font-weight: bold;
 }
+
+.info {
+  background-color: #ef5466;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 40px;
+}
+
+.iframe-info i {
+  color: white;
+}
+.article-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.article-info h3 {
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.article-info h3 {
+  color: white;
+}
+.article-info p {
+  color: white;
+}
