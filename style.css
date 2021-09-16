@@ -6,12 +6,12 @@ h3 {
   font-family: "Roboto", sans-serif;
 }
 header {
-  position: sticky;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  background-color: pink;
-  /* height: 300px; */
+  z-index: 1000;
+  background-color: white;
 }
 .logo-deezer {
   width: 175px;
@@ -33,6 +33,7 @@ header nav {
 button {
   border-radius: 20px;
   padding: 10px 30px;
+  width: fit-content;
 }
 
 .first {
@@ -58,4 +59,49 @@ button {
 }
 :hover button {
   cursor: pointer;
+}
+
+.banner-hero h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.banner-hero h2 {
+  color: #ef5466;
+}
+.banner-hero {
+  position: relative;
+  display: flex;
+  height: 600px;
+  margin-top: 150px;
+  justify-content: space-around;
+}
+.cover {
+  position: absolute;
+  right: 0;
+  width: 700px;
+  height: 700px;
+}
+
+.third {
+  color: white;
+  background-color: #ef5466;
+  border: solid 1px #ef5466;
+}
+
+.four {
+  color: black;
+  border: solid 1px black;
+}
+
+.button-adjust {
+  display: flex;
+  gap: 25px;
+}
+
+.align {
+  margin-right: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
