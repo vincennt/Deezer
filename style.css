@@ -262,3 +262,59 @@ button {
   font-size: 12px;
   text-align: center;
 }
+
+.reduction {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.reduction-div {
+  background-color: #f0f0f0;
+  width: 100%;
+  height: 125px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.reduction1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-left: 250px;
+}
+
+.margin-right {
+  margin-right: 175px;
+}
+.red {
+  color: #ef5466;
+}
+
+.black {
+  border: black 2px solid;
+}
+
+.big {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.picture-adjust {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.sizep img {
+  width: 250px;
+  height: 250px;
+  object-fit: contain;
+}
+
+footer {
+  background-color: cadetblue;
+}
