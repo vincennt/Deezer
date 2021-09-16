@@ -176,3 +176,33 @@ button {
 .article-info p {
   color: white;
 }
+.tableau-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+}
+.tableau {
+  border: 1px solid black;
+  box-shadow: 0px 2px 5px black;
+  width: 200px;
+  height: 400px;
+}
+
+.text-align {
+  text-align: center;
+}
+
+.offre {
+  margin-top: 40px;
+}
+.blue {
+  background-color: #2d96c8;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
