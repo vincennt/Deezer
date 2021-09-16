@@ -12,6 +12,7 @@ header {
   right: 0;
   z-index: 1000;
   background-color: white;
+  box-shadow: 0px 2px 5px black;
 }
 .logo-deezer {
   width: 175px;
@@ -110,6 +111,7 @@ button {
   width: 300px;
   height: 500px;
   margin-left: 300px;
+  margin-top: 50px;
 }
 
 .presentation {
@@ -121,6 +123,7 @@ button {
 }
 .parent {
   margin-right: 200px;
+  margin-top: 50px;
 }
 
 .paragraphe {
