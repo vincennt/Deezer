@@ -177,15 +177,18 @@ button {
 .article-info p {
   color: white;
 }
+.capital {
+  text-transform: uppercase;
+}
 .tableau-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 3px;
+  gap: 5px;
 }
 .tableau {
   border: 1px solid black;
-  box-shadow: 0px 2px 5px black;
+  box-shadow: 3px 3px 3px 3px grey;
   width: 300px;
   height: 600px;
   display: flex;
@@ -334,4 +337,31 @@ footer {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+}
+
+:hover.logo-social {
+  cursor: pointer;
+}
+@media (min-width: 600px) {
+  .banner i {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .banner a,
+  button {
+    display: none;
+  }
+  header nav {
+    justify-content: center;
+  }
+  nav {
+    position: relative;
+  }
+  .banner {
+    position: absolute;
+    right: 0;
+  }
+  
 }
